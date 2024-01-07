@@ -56,6 +56,7 @@
 
 .header__theme-menu-button {
     display: flex;
+    color: var(--title-nav-color);
     height: 26px;
     border: none;
     padding-inline: 13px;
