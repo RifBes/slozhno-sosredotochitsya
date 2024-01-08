@@ -9,7 +9,7 @@
     --text-color: #353430;
     --main-color: #ff8dcb;
     --title-nav-color: #353430;
-    --background-color: #000028;
+    --background-color: #ffeef6;
     --content-title: #353430;
 
     --background-img: url(../images/cover-image-light.png);
@@ -17,9 +17,5 @@
 }
 
 .page.theme_light .decoration {
-    display: none;
-}
-
-.page.theme_auto .decoration {
     display: none;
 }
