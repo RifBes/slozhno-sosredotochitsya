@@ -19,3 +19,21 @@
 .page.theme_light .decoration {
     display: none;
 }
+
+@media (prefers-color-scheme: light) {
+    :root {
+        --title-color: #ffc2e6;
+        --text-color: #353430;
+        --main-color: #ff8dcb;
+        --title-nav-color: #353430;
+        --background-color: #ffeef6;
+        --content-title: #353430;
+
+        --background-img: url(../images/cover-image-light.png);
+        --btn-hover: rgba(255, 0, 112, 0.4);
+    }
+
+    .page.theme_auto .decoration {
+        display: none;
+    }
+}
