@@ -315,10 +315,6 @@
 }
 
 @media (max-width: 500px) {
-    body {
-        --gap-container: 10px;
-    }
-
     .header {
         padding: var(--gap-container);
     }

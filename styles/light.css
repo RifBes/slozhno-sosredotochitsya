@@ -19,3 +19,7 @@
 .page.theme_light .decoration {
     display: none;
 }
+
+.page.theme_auto .decoration {
+    display: none;
+}
