@@ -15,3 +15,7 @@
     --background-img: url(../images/cover-image-light.png);
     --btn-hover: rgba(255, 0, 112, 0.4);
 }
+
+.page.theme_light .decoration {
+    display: none;
+}
