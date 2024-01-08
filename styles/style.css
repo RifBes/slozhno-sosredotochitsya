@@ -72,8 +72,11 @@
 }
 
 .header__theme-menu-button:focus {
-    border-block-end: 1px solid var(--main-color);
     outline: none;
+}
+
+.header__theme-menu-button:focus-visible {
+    border-block-end: 1px solid var(--main-color);
 }
 
 .header__theme-menu-button_active {
@@ -212,8 +215,11 @@
 }
 
 .content-link:focus {
-    border: 1px solid currentColor;
     outline: none;
+}
+
+.content-link:focus-visible {
+    border: 1px solid currentColor;
 }
 
 .content-img {
