@@ -11,6 +11,7 @@
     --title-nav-color: #353430;
     --background-color: #ffeef6;
     --content-title: #353430;
+    --title-card-color: #353430;
 
     --background-img: url(../images/cover-image-light.png);
     --btn-hover: rgba(255, 0, 112, 0.4);
@@ -28,12 +29,13 @@
         --title-nav-color: #353430;
         --background-color: #ffeef6;
         --content-title: #353430;
+        --title-card-color: #353430;
 
         --background-img: url(../images/cover-image-light.png);
         --btn-hover: rgba(255, 0, 112, 0.4);
     }
 
-    .page.theme_auto .decoration {
-        display: none;
+    .decoration {
+        visibility: hidden;
     }
 }

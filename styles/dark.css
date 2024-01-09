@@ -11,7 +11,27 @@
     --background-color: #000028;
     --content-title: #000028;
     --title-nav-color: #ff0070;
+    --title-card-color: #ff0070;
 
     --background-img: url(../images/cover-image-dark.png);
     --btn-hover: rgba(255, 0, 112, 0.4);
+}
+
+.page.theme_dark .decoration {
+    visibility: visible;
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --title-color: #db00ff;
+        --text-color: #f1b2ce;
+        --main-color: #ff0070;
+        --background-color: #000028;
+        --content-title: #000028;
+        --title-nav-color: #ff0070;
+        --title-card-color: #ff0070;
+
+        --background-img: url(../images/cover-image-dark.png);
+        --btn-hover: rgba(255, 0, 112, 0.4);
+    }
 }
