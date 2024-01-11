@@ -12,9 +12,10 @@
     --background-color: #ffeef6;
     --content-title: #353430;
     --title-card-color: #353430;
+    --decorationZone-color: #353430;
 
     --background-img: url(../images/cover-image-light.png);
-    --btn-hover: rgba(255, 0, 112, 0.4);
+    --btn-hover: rgba(50, 49, 45, 0.4);
 }
 
 .page.theme_light .decoration {
@@ -30,9 +31,10 @@
         --background-color: #ffeef6;
         --content-title: #353430;
         --title-card-color: #353430;
+        --decorationZone-color: #353430;
 
         --background-img: url(../images/cover-image-light.png);
-        --btn-hover: rgba(255, 0, 112, 0.4);
+        --btn-hover: rgba(50, 49, 45, 0.4);
     }
 
     .decoration {
